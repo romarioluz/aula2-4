@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 import {studentRouter} from './routes/studentRouter.js'
 
 
-//Conexão com MngoDB pelo Mongoose
+//Conectar ao MongoDB pelo Mongoose
 (async () => {
     try {
         await mongoose.connect(
