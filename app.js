@@ -2,8 +2,9 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import {studentRouter} from './routes/studentRouter.js'
-const app = express();
 import dotenv from 'dotenv'
+const app = express();
+//configurando o dotenv
 dotenv.config();
 
 //Conectar ao MongoDB pelo Mongoose
