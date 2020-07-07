@@ -11,7 +11,7 @@ dotenv.config();
 (async () => {
     try {
         await mongoose.connect(
-          `mongodb+srv://${process.env.USER_DB}:${process.env.PSWBD}@cluster0.4lhxf.gcp.mongodb.net/grades?retryWrites=true&w=majority`,
+          `mongodb+srv://${process.env.USER_DB}:${process.env.PSWDB}@cluster0.4lhxf.gcp.mongodb.net/grades?retryWrites=true&w=majority`,
           {
             useNewUrlParser: true,
             useUnifiedTopology: true,
